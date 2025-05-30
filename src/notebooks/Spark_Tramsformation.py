@@ -11,7 +11,7 @@
 spark.conf.set("fs.azure.account.auth.type.azstoragetraining.dfs.core.windows.net", "OAuth")
 spark.conf.set("fs.azure.account.oauth.provider.type.azstoragetraining.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
 spark.conf.set("fs.azure.account.oauth2.client.id.azstoragetraining.dfs.core.windows.net", "49bbd4cd-c36c-4eb5-96a4-e1ebad573555")
-spark.conf.set("fs.azure.account.oauth2.client.secret.azstoragetraining.dfs.core.windows.net", "xSN8Q~1zr9rSHsDCnKSj7og~MDuZIJnugFMEzaLU")
+
 spark.conf.set("fs.azure.account.oauth2.client.endpoint.azstoragetraining.dfs.core.windows.net", "https://login.microsoftonline.com/45da25de-8003-4abf-bea8-55aba615e5e7/oauth2/token")
  
 
